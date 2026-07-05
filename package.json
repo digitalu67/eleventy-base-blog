@@ -2,10 +2,10 @@
   "name": "my-eleventy-site",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx @11ty/eleventy && npx pagecrypt _site/index.html"
+    "build": "npx @11ty/eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "pagecrypt": "^2.0.0"
+    "@11ty/eleventy-plugin-rss": "^1.2.0"
   }
 }
