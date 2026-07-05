@@ -1,10 +1,10 @@
 {
-	"name": "eleventy-base-blog",
-	"version": "9.0.0",
+  "name": "my-eleventy-site",
+  "version": "1.0.0",
+  "type": "module",
 	"description": "A starter repository for a blog web site using the Eleventy site generator.",
-	"type": "module",
 	"scripts": {
-		"build": "npx @11ty/eleventy",
+		"build": "npx @11ty/eleventy && npx pagecrypt _site/index.html",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
 		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
 		"start": "npx @11ty/eleventy --serve --quiet",
@@ -43,7 +43,8 @@
 		"cross-env": "^10.1.0",
 		"luxon": "^3.7.2",
 		"prismjs": "^1.30.0",
-		"zod": "^4.4.3"
+		"zod": "^4.4.3",
+		"pagecrypt": "^2.0.0"
 	},
 	"dependencies": {
 		"@zachleat/heading-anchors": "^1.0.5"
