@@ -8,16 +8,4 @@ My first blog post is here!
 
 ## Github + Render
 
-Using Github and Render to host a site.  Using Eleventy to create the static pages
-
-```diff-js
- // this is a command
- function myCommand() {
-+  let counter = 0;
--  let counter = 1;
-   counter++;
- }
-
- // Test with a line break above this line.
- console.log('Test');
-```
+Using Github and Render to host a site.  Using Eleventy to create the static pages.
